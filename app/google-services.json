@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313943173266",
+    "firebase_url": "https://madhuvan-app.firebaseio.com",
+    "project_id": "madhuvan-app",
+    "storage_bucket": "madhuvan-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313943173266:android:21b0fa1bc7c5546ecc5e4b",
+        "android_client_info": {
+          "package_name": "com.example.madhuvan_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313943173266-rt98jnlerqh465jebukiusofqc325668.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madhuvan_app",
+            "certificate_hash": "b6ec21a8fd7bde45eed85edea1735917520f9eb3"
+          }
+        },
+        {
+          "client_id": "313943173266-t1j9f9us192kbjnjjt3l04muiq31lkc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgju_GLLL9b4yMAOlHvdoq6jbhZ996AWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313943173266-t1j9f9us192kbjnjjt3l04muiq31lkc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

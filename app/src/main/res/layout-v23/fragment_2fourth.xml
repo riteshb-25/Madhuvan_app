@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="@string/t_t_t_t_t_t_t_fight_against_cancer"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:text="@string/t_t_t_t_t_t_t_fight_against_cancer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="404dp"
+            android:layout_height="377dp"
+            android:paddingEnd="2dp"
+            android:text="@string/awareness_programmes_on_cancer_for_awakening_people_to_fight_against_cancer_awareness_is_a_state_of_being_conscious_of_one_s_self_and_surrounding_we_got_a_government_project_on_a_pilot_phase_on_cancer_awareness_programmes_we_worked_in_the_ten_villages_of_the_two_talukas_of_the_sabarkantha_district_we_have_organized_awareness_programme_on_cancer_at_the_grass_root_level_for_awakening_people_to_survive_against_cancer_we_went_to_the_home_to_home_of_village_and_worked_to_aware_people_about_the_signs_symptoms_causes_risk_factors_diagnosis_and_treatment_about_cancer_our_objects_of_this_project_are_to_empower_individuals_families_communities_and_society_with_prevention_and_intervention_skills_to_fight_against_cancer_and_to_reduce_the_level_of_cancer_patient_madhuvan_foundation_s_strategies_are_guided_by_two_interdependent_strategies_and_aim_to_provide_a_comprehensive_and_holistic_intervention_model_to_make_enable_people_to_fight_against_cancer_which_are_programme_strategy_and_advocacy_strategy_the_purpose_of_project_is_to_deliver_an_awareness_programme_geared_towards_preventive_and_intervention_services_awareness_and_capacity_building_to_fight_against_cancer_its_impact_create_a_safe_environment_for_people_of_village_with_main_focus_on_rural_people_to_aware_about_the_cancer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editText4" />
+
+        <TextView
+            android:id="@+id/editText6"
+            android:layout_width="356dp"
+            android:layout_height="38dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/objectives_of_cancer_awareness"
+            android:inputType="textPersonName"
+            android:text="@string/objectives_of_cancer_awareness"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="210dp"
+            android:layout_height="250dp"
+            android:gravity="left"
+            android:text="@string/to_create_consciousness_of_the_disease_to_help_people_recognize_the_early_sign_and_symptoms_of_cancer_thus_enabling_them_to_seek_treatment_at_an_early_stage_the_programme_encourages_the_participants_to_seek_prompt_medical_attention_for_symptoms_which_may_include_lumps_sores_bleeding_hoarseness_weight_loss_and_persistent_indigestion_cough_pain_etc_to_teach_people_about_the_key_danger_factors_of_most_cancers_when_you_consider_that_extra_than_30_of_cancer_instances_can_be_averted_by_means_of_editing_lifestyle_or_fending_off_the_important_thing_hazard_factors_to_inform_people_about_the_importance_of_cancer_check_up_at_an_early_stage"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="138dp"
+            android:layout_height="204dp"
+            android:contentDescription="@string/t_t_t_t_t_t_t_fight_against_cancer"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="@+id/textView10"
+            app:srcCompat="@drawable/ini_gvandhara2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="147dp"
+            android:text="@string/to_teach_people_about_the_key_danger_factors_of_most_cancers_when_you_consider_that_extra_than_30_of_cancer_instances_can_be_averted_by_means_of_editing_lifestyle_or_fending_off_the_important_thing_hazard_factors_n_to_inform_people_about_the_importance_of_cancer_check_up_at_an_early_stage"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom|right"
+            android:paddingStart="1dp"
+            android:paddingEnd="3dp"
+            android:text="4/5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@id/textView13"
+            android:gravity="center"
+            android:text="Swipe Right for next page ->"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView21" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

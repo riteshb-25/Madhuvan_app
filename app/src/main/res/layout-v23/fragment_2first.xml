@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BEC8F"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints=""
+                android:ems="10"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:hint="@string/pasti_ki_pathshala_with_raddi_ka_ruaab"
+                android:inputType="textPersonName"
+                android:labelFor="@id/textView3"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="@string/pasti_ki_pathshala_with_raddi_ka_ruaab"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:paddingStart="1dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="3dp"
+                android:text="@string/our_madhuvan_foundation_has_instigated_a_project_named_pasti_ki_pathshala_with_raddi_ka_ruaab_this_is_governing_since_2014_to_promote_education_among_poor_children_education_is_the_only_wealth_which_cannot_be_robbed_it_builds_both_internal_and_outer_personality_and_character_strengthens_our_mind_and_augments_our_pool_of_knowledge_the_education_is_very_essential_for_eradicating_poverty_as_it_makes_people_more_productive_and_earn_a_better_living"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="461dp"
+                android:paddingStart="1dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="3dp"
+                android:text="@string/the_education_is_the_key_which_allows_people_to_open_up_the_world_of_opportunities_seek_better_job_and_ultimately_succeed_in_their_lives_its_main_aim_is_that_to_help_poor_children_who_get_difficulty_in_purchasing_books_and_other_things_for_education_who_are_associated_with_our_ngo_such_as_students_of_social_work_volunteers_supports_and_other_field_workers_go_in_the_field_and_collect_waste_papers_like_old_books_magazines_newspapers_from_the_local_people_schools_colleges_and_other_areas_covered_for_field_work_they_go_to_home_to_home_and_collect_waste_papers_whatever_waste_papers_are_collected_by_them_which_is_sold_by_the_madhuvan_foundation_and_got_money_from_selling_waste_papers_madhuvan_foundation_brings_note_books_from_the_money_of_selling_waste_papers_and_distribute_among_the_poor_children_in_primary_schools_as_per_the_need_and_requirement_it_has_very_positive_impact_on_education_of_children_and_helpful_to_enhancing_the_ratio_of_education_among_children_this_project_helps_to_increase_of_quality_of_education"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="bottom|right"
+                android:paddingStart="1dp"
+                android:paddingEnd="3dp"
+                android:text="1/5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="398dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/viewpager2"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Swipe Right for next page ->"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
