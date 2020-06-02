@@ -11,11 +11,14 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.madhuvan_app.R;
+import com.example.madhuvan_app.adapter.TabAdapter;
 import com.example.madhuvan_app.adapter.ini_PagerAdapter;
+import com.google.android.material.tabs.TabLayout;
 
 public class ini_Fragment extends Fragment {
     private ViewPager viewPager2;
-    private ini_PagerAdapter adapter2;
+    private TabAdapter adapter2;
+    private TabLayout tableLayout;
 
     public ini_Fragment() {
     }
@@ -26,8 +29,17 @@ public class ini_Fragment extends Fragment {
         View view = inflater.inflate(R.layout.ini_fragment, container, false);
 
         viewPager2 = view.findViewById(R.id.viewpager2);
-        adapter2 =  new ini_PagerAdapter(getFragmentManager());
+        tableLayout = view.findViewById(R.id.tablayout2);
+
+        adapter2 = new TabAdapter(getFragmentManager());
+        adapter2.addFragment(new ini_First(), "First");
+        adapter2.addFragment(new ini_Second(), "Second");
+        adapter2.addFragment(new ini_Third(), "Third");
+        adapter2.addFragment(new ini_Fourth(), "Fourth");
+        adapter2.addFragment(new ini_Fifth(), "Fifth");
+
         viewPager2.setAdapter(adapter2);
+        tableLayout.setupWithViewPager(viewPager2);
 
 
         return view;
