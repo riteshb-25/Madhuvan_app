@@ -11,8 +11,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.madhuvan_app.fragments.ContactUs;
+import com.example.madhuvan_app.fragments.media_Fragment;
+import com.example.madhuvan_app.fragments.service_Fragment;
 import com.example.madhuvan_app.fragments.ini_Fragment;
 import com.example.madhuvan_app.fragments.MainFragmentTab;
 import com.google.android.material.navigation.NavigationView;
@@ -111,13 +113,23 @@ public class MainActivity extends AppCompatActivity
             ft.commit();
 
 
-        } else if (id == R.id.nav_share) {
-            appBarTV.setText("Share Page");
-            Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_service) {
+            appBarTV.setText("Service Activities");
+            service_Fragment service = new service_Fragment();
+            ft.replace(R.id.f_container, service);
+            ft.commit();
 
-        } else if (id == R.id.nav_send) {
-            appBarTV.setText("Send");
-            Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_contact) {
+            appBarTV.setText("Contact Us");
+            ContactUs contactus = new ContactUs();
+            ft.replace(R.id.f_container, contactus);
+            ft.commit();
+        }
+        else if (id == R.id.nav_media) {
+            appBarTV.setText("Print Media Coverage");
+            media_Fragment media = new media_Fragment();
+            ft.replace(R.id.f_container, media);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

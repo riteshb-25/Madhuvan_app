@@ -9,38 +9,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:text="@string/call1" />
+        android:paddingStart="5dp"
+        android:text="@string/call1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
     <TextView
-        android:paddingVertical="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:text="@string/vision" />
+        android:paddingVertical="10dp"
+        android:paddingStart="5dp"
+        android:text="@string/vision"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/call2" />
+        android:paddingStart="5dp"
+        android:text="@string/call2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
     <TextView
-        android:paddingVertical="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:text="@string/about_us" />
+        android:paddingVertical="10dp"
+        android:paddingStart="5dp"
+        android:text="@string/about_us"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/call3" />
+        android:paddingStart="5dp"
+        android:text="@string/call3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
         android:id="@+id/textView2"
-        android:autoLink="all"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:paddingStart="5dp"
         android:text="@string/fb_page"
-        />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
 
 </LinearLayout>

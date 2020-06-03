@@ -9,11 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.madhuvan_app.R;
 
+public class service_Fragment extends Fragment {
 
-public class ContactUs extends Fragment {
-
-
-    public ContactUs() {
+    public service_Fragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +22,6 @@ public class ContactUs extends Fragment {
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.contact_fragment, container, false);
+        return inflater.inflate(R.layout.service_fragment, container, false);
     }
-
 }

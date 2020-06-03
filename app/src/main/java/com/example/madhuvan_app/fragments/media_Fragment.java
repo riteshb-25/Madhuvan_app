@@ -9,11 +9,8 @@ import androidx.fragment.app.Fragment;
 
 import com.example.madhuvan_app.R;
 
-
-public class ContactUs extends Fragment {
-
-
-    public ContactUs() {
+public class media_Fragment extends Fragment {
+    public media_Fragment() {
         // Required empty public constructor
     }
 
@@ -22,9 +19,7 @@ public class ContactUs extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.contact_fragment, container, false);
+        return inflater.inflate(R.layout.media_fragment, container, false);
     }
-
 }
