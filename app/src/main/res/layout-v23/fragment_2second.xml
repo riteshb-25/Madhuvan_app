@@ -43,25 +43,6 @@
                 android:text="@string/call221"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="95dp"
-                android:gravity="bottom|right"
-                android:paddingStart="1dp"
-                android:paddingEnd="3dp"
-                android:text="2/5"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_below="@+id/viewpager2"
-                android:layout_marginTop="2dp"
-                android:gravity="center"
-                android:text="Swipe Right for next page ->"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
         </LinearLayout>
     </ScrollView>
 

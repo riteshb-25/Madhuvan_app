@@ -1,34 +1,28 @@
 package com.example.madhuvan_app.fragments;
 
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
 import com.example.madhuvan_app.R;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class Second extends Fragment { ;
-
-    public Second() {
+public class ContactUs extends Fragment {
+    public ContactUs() {
         // Required empty public constructor
     }
+
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-
-
-        return inflater.inflate(R.layout.fragment_second, container, false);
+        return inflater.inflate(R.layout.contact_fragment, container, false);
     }
 
 }
