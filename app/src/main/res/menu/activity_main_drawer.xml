@@ -11,15 +11,15 @@
             android:title="@string/home" />
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_tab_black_24dp"
+            android:icon="@drawable/initiatives_icon"
             android:title="Initiatives" />
         <item
             android:id="@+id/nav_service"
-            android:icon="@drawable/ic_menu_share"
-            android:title="Service Activities At Glance" />
+            android:icon="@drawable/activities_icon"
+            android:title="Service Activities" />
         <item
             android:id="@+id/nav_media"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/media_icon"
             android:title="Print Media Coverage" />
 
         </group>

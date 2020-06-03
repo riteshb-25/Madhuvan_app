@@ -34,7 +34,6 @@ public class MainFragmentTab extends Fragment {
         adapter = new TabAdapter(getFragmentManager());
         adapter.addFragment(new First(), "Home");
         adapter.addFragment(new Second(), "Donate");
-        adapter.addFragment(new Third(), "Notifications");
 
         viewPager.setAdapter(adapter);
         tableLayout.setupWithViewPager(viewPager);

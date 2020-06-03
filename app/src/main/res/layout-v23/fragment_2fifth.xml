@@ -36,6 +36,7 @@
             android:layout_height="654dp"
             android:gravity="left"
             android:paddingTop="8dp"
+            android:paddingStart="3dp"
             android:paddingEnd="3dp"
             android:text="@string/fragment_five_ini_textView7"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />

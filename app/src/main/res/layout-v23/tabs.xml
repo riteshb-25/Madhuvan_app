@@ -9,9 +9,9 @@
         android:id="@+id/request_orders_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white_gray"
+        android:background="#62D8C0"
         android:scrollIndicators="end"
-        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorAccent"
         app:tabMode="fixed" />
 
 

@@ -32,11 +32,11 @@ public class ini_Fragment extends Fragment {
         tableLayout = view.findViewById(R.id.tablayout2);
 
         adapter2 = new TabAdapter(getFragmentManager());
-        adapter2.addFragment(new ini_First(), "First");
-        adapter2.addFragment(new ini_Second(), "Second");
-        adapter2.addFragment(new ini_Third(), "Third");
-        adapter2.addFragment(new ini_Fourth(), "Fourth");
-        adapter2.addFragment(new ini_Fifth(), "Fifth");
+        adapter2.addFragment(new ini_First(), "");
+        adapter2.addFragment(new ini_Second(), "");
+        adapter2.addFragment(new ini_Third(), "");
+        adapter2.addFragment(new ini_Fourth(), "");
+        adapter2.addFragment(new ini_Fifth(), "");
 
         viewPager2.setAdapter(adapter2);
         tableLayout.setupWithViewPager(viewPager2);

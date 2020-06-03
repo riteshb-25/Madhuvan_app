@@ -134,10 +134,9 @@ Lambhavel Road,\n Bakrol, Ta and Dist. Anand"
         android:id="@+id/textView25"
         android:layout_width="380dp"
         android:layout_height="119dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="32dp"
         android:autoLink="all"
+        android:background="@drawable/box2"
         android:gravity="center"
         android:text="Contact Person:\n
 President\n
